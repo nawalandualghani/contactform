@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>assignment</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<section class="sec contact-sec">
+    <div class="contactus">
+            <form action="" name="contactform" onsubmit="return contactUs()" method="post">
+                    <div class="section-title"><h3 class="border-title phonti">Sign Up </h3></div>
+                    
+                    
+                    <input type="text" name="name" placeholder="Name" class="inpu" id="name" required ><br><br>
+                    <p id="demo1"></p>
+                    <input type="number" name="phone" placeholder="Phone Number" class="inpu" id="phone" required pattern="^\d{4}-\d{3}-\d{4}$"><br><br>
+                    <p id="demo2"></p>
+                    <input type="email" name="email" placeholder="Email Address" class="inpu" id="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br><br>
+                    <p id="demo3"></p>
+                    <input type="number" name="age" placeholder="Age" class="inpu" min="1" max="150" id="age" required><br><br>
+                    <p id="demo"></p>
+                    <textarea rows="7" cols="50" class="inpu" name="massage" placeholder="massage " id="massage"   maxlength="300" required> </textarea>
+                    <p id="demo4"></p>
+                    <input type="submit" class="btn-sub">
+                </form> 
+                <!-- <button class="btn-sub" type="submit" value="Submit" onclick="contactUs()"> <b>SING UP</b></button> -->
+    </div>
+</section>
+       
+   
+     
+    <script src="main.js"></script> 
+    
+</script>
+</body>
+</html>
